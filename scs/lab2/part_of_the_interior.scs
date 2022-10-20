@@ -1,0 +1,40 @@
+concept_part_of_the_interior <- sc_node_not_relation;;
+concept_appearence <- sc_node_not_relation;;
+concept_object <- sc_node_not_relation;;
+concept_interior <- sc_node_not_relation;;
+concept_architecture_interior <- sc_node_not_relation;;
+nrel_base <- sc_node_norole_relation;;
+nrel_inclusion <- sc_node_norole_relation;;
+
+
+
+part_of_the_interior => nrel_main_idtf:[part of the interior](*<- lang_eng;;*);;
+part_of_the_interior => nrel_main_idtf:[часть интерьера](*<- lang_ru;;*);;
+
+definition -> ...(*
+    ->rrel_key_sc_element: part_of_the_interior;;
+
+    <=nrel_sc_text_translation: ... (*->rrel_example:[часть интерьера - часть вида изнутри на какой-либо объект](*<-lang_ru;;*);;*);;
+
+    =>nrel_main_idtf:[опред (часть интерьера)](*<-lang_ru;;*);;
+
+    =>nrel_using_constants:{
+        appearence;
+        object;
+        interior
+    };;
+*);;
+
+statement -> ...(*
+    ->rrel_key_sc_element:part_of_the_interior;;
+
+    <=nrel_sc_text_translation: ...(*->rrel_example:[Основу композиции архитектурного интерьера составляет целостное взаимодействие утилитарных прагматических, эстетических функций и художественно-образных идей и решений, направленных на создание гармоничной среды жизни и деятельности человека.](*<lang_ru;;*);;*);;
+
+    =>nrel_main_idtf:[утв. (основа архитектурного интерьера)](*<-lang_ru;;*);;
+
+    =>nrel_using_constants:{
+        nrel_base;
+        architecture_interior
+    };;
+*);;
+interior=>nrel_inclusion:part_of_the_interior;;
