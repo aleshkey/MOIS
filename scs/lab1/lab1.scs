@@ -62,7 +62,7 @@ concept_length_1cm<-concept_length;;
 
 ...<-concept_length;
 <-concept_exact_value;
-=>nrel_measurement_in_centimeters:X
+=>nrel_measurement_in_centimeters:X;;
 
 
 concept_trapezoid_ABCD=>nrel_height:h;;
