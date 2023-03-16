@@ -1,0 +1,163 @@
+// Section
+
+subject_domain_math
+	=> nrel_main_idtf: [Раздел. Предметная область math] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Section. Subject domain of math] (* <- lang_en;; *);
+
+	<= nrel_section_decomposition:
+		{
+            section_arifmetics;
+            section_algebra;
+            section_geometry;
+            section_mathematical_analysis
+		};
+
+	-> rrel_key_sc_element:
+        concept_science;
+		concept_number;
+        concept_figure;
+        concept_symbol;
+        concept_sign;
+        
+
+	<- non_atomic_section;;
+
+// Sections
+
+
+section_arifmetics
+    <-sc_node_not_relation;
+    => nrel_main_idtf: [Раздел. Арифметика] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Section. Arifmetics] (* <- lang_en;; *);;
+
+section_algebra
+    <-sc_node_not_relation;
+    => nrel_main_idtf: [Раздел. Алгебра] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Section. Algebra] (* <- lang_en;; *);;    
+
+section_geometry
+    <-sc_node_not_relation;
+    => nrel_main_idtf: [Раздел. Геометрия] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Section. Geometry] (* <- lang_en;; *);;
+
+section_mathematical_analysis
+    <-sc_node_not_relation;
+    => nrel_main_idtf: [Раздел. Математичесикй анализ] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Section. Mathematical analysis] (* <- lang_en;; *);;
+
+concept_science
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [Наука] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Science] (* <- lang_en;; *);;
+
+concept_number
+    <- sc_node_not_relation;
+    => nrel_main_idtf: [Число] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Number] (* <- lang_en;; *);;
+
+concept_figure
+    <- sc_node_not_relation;
+    => nrel_main_idtf: [Фигура] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Figure] (* <- lang_en;; *);;
+
+
+concept_symbol
+    <- sc_node_not_relation;
+    => nrel_main_idtf: [Символ] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Symbol] (* <- lang_en;; *);;
+
+
+concept_sign
+    <- sc_node_not_relation;
+    => nrel_main_idtf: [Знак] (* <- lang_ru;; *);
+    => nrel_main_idtf: [sign] (* <- lang_en;; *);;
+
+
+
+// Subject domain
+subject_domain_math = [*
+
+	subject_domain_math
+		<- sc_node_not_relation;
+		=> nrel_main_idtf: [Предметная область математики] (* <- lang_ru;; *);
+    	=> nrel_main_idtf: [Subject domain of math] (* <- lang_en;; *);
+
+		-> rrel_maximum_studied_object_class:
+			concept_science;
+
+		<- rrel_not_maximum_studied_object_class:
+			concept_number;
+			concept_symbol;
+			concept_sign;
+            concept_figure;
+
+		-> rrel_studied_relation:
+		   nrel_sum;
+		   nrel_similarity_of_triangles;
+		   nrel_multiplication;
+		   nrel_difference;
+		   nrel_division;
+
+
+		=> nrel_private_subject_domain:
+			subject_domain_of_arifmetics;
+			subject_domain_of_algebra;
+			subject_domain_of_geometry;
+			subject_domain_of_mathematical_analysis;
+
+		<= nrel_private_subject_domain:
+			subject_domain_of_science;
+
+		<- subject_domain;;
+
+*];;
+
+subject_domain_of_science
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [Предметная область науки] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Subject domain of science] (* <- lang_en;; *);;
+
+subject_domain_of_arifmetics
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [Предметная область арифметики] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Subject domain of arifmetics] (* <- lang_en;; *);;
+
+subject_domain_of_algebra
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [Предметная область алгебры] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Subject domain of algebra] (* <- lang_en;; *);;
+
+subject_domain_of_geometry
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [Предметная область геометрии] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Subject domain of geometry] (* <- lang_en;; *);;
+
+subject_domain_of_mathematical_analysis
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [Предметная область математического анализа] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Subject domain of mathematical analysis] (* <- lang_en;; *);;
+
+nrel_sum 
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf: [сумма*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [sum*] (* <- lang_en;; *);;
+
+nrel_multiplication
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf: [произведение*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [multiplication*] (* <- lang_en;; *);;
+
+nrel_similarity_of_triangles
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf: [подобие треугольников*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [similaryty of triangles*] (* <- lang_en;; *);;
+
+nrel_difference
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf: [разность*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [difference*] (* <- lang_en;; *);;
+
+nrel_division
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf: [деление*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [division*] (* <- lang_en;; *);;
