@@ -26,6 +26,13 @@ subject_domain_math
 // Sections
 
 
+section_math_theorems
+	<-sc_node_not_relation;
+    => nrel_main_idtf: [Раздел. Математичесие теоремы] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Section. Math theorems] (* <- lang_en;; *);;
+
+
+
 section_arifmetics
     <-sc_node_not_relation;
     => nrel_main_idtf: [Раздел. Арифметика] (* <- lang_ru;; *);
@@ -60,6 +67,16 @@ concept_number
     <- sc_node_not_relation;
     => nrel_main_idtf: [Число] (* <- lang_ru;; *);
     => nrel_main_idtf: [Number] (* <- lang_en;; *);;
+
+concept_university_theorem
+    <- sc_node_not_relation;
+    => nrel_main_idtf: [теорема из университета] (* <- lang_ru;; *);
+    => nrel_main_idtf: [university theorem] (* <- lang_en;; *);;
+
+concept_theorem
+    <- sc_node_not_relation;
+    => nrel_main_idtf: [Теорема] (* <- lang_ru;; *);
+    => nrel_main_idtf: [Theorem] (* <- lang_en;; *);;
 
 concept_figure
     <- sc_node_not_relation;
@@ -189,3 +206,7 @@ concept_school_theorem
 	=> nrel_main_idtf: [школьная теорема*] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [school theorem*] (* <- lang_en;; *);;
 
+nrel_section_of_math
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf: [раздел математики*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [section of math*] (* <- lang_en;; *);;

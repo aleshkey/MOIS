@@ -8,8 +8,7 @@ lw4_patterns
     -> pattern6;
     -> pattern7;
     -> pattern8;
-    -> pattern9;
-    -> pattern10;;
+    -> pattern9;;
 
 pattern1 => nrel_main_idtf: [Найти все школьные теоремы] (* <- lang_ru;; *);;
 pattern2 => nrel_main_idtf: [Найти все геометрические теоремы] (* <- lang_ru;; *);;

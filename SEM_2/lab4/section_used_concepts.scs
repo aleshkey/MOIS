@@ -22,6 +22,7 @@ disciminant => nrel_main_idtf:
     [Дискриминант]
     (*<-lang_ru;;*);;
 
+
 root => nrel_main_idf:
     [корень]
     (* <-lang_ru;;*);;
@@ -89,4 +90,24 @@ sum => nrel_main_idtf:
 
 square => nrel_main_idtf:
     [квадрат]
+    (*<-lang_ru;;*);;
+
+coefficient => nrel_main_idtf:
+    [коэффициент]
+    (*<-lang_ru;;*);;
+
+division => nrel_main_idtf:
+    [деление]
+    (*<- lang_ru;; *);;
+
+multiplication => nrel_main_idtf:
+    [умножение]
+    (*<-lang_ru;;*);;
+
+function => nrel_main_idtf:
+    [функция]
+    (*<-lang_ru;;*);;
+
+sign_constancy => nrel_main_idtf:
+    [постоянство знака]
     (*<-lang_ru;;*);;
