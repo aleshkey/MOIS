@@ -82,3 +82,11 @@ leg => nrel_main_idtf:
 hypotenuse => nrel_main_idtf:
     [гипотенуза]
     (*<-lang_ru;;*);;
+
+sum => nrel_main_idtf:
+    [сумма]
+    (*<-lang_ru;;*);;
+
+square => nrel_main_idtf:
+    [квадрат]
+    (*<-lang_ru;;*);;

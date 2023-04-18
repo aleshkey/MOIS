@@ -9,7 +9,8 @@ subject_domain_math
             section_arifmetics;
             section_algebra;
             section_geometry;
-            section_mathematical_analysis
+            section_mathematical_analysis;
+			section_probability_theory
 		};
 
 	-> rrel_key_sc_element:
@@ -34,6 +35,11 @@ section_algebra
     <-sc_node_not_relation;
     => nrel_main_idtf: [Раздел. Алгебра] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [Section. Algebra] (* <- lang_en;; *);;    
+
+section_probability_theory
+    <-sc_node_not_relation;
+    => nrel_main_idtf: [Раздел. Теория вероятностей] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Section. Probability theory] (* <- lang_en;; *);;  
 
 section_geometry
     <-sc_node_not_relation;
@@ -104,6 +110,7 @@ subject_domain_math = [*
 			subject_domain_of_algebra;
 			subject_domain_of_geometry;
 			subject_domain_of_mathematical_analysis;
+			subject_domain_of_probability_theory;
 
 		<= nrel_private_subject_domain:
 			subject_domain_of_science;
@@ -111,6 +118,11 @@ subject_domain_math = [*
 		<- subject_domain;;
 
 *];;
+
+subject_domain_of_probability_theory
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [Предметная область теории вероятностей] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [Subject domain of probapility theory] (* <- lang_en;; *);;
 
 subject_domain_of_science
 	<- sc_node_not_relation;
@@ -161,3 +173,19 @@ nrel_division
 	<- sc_node_norole_relation;
 	=> nrel_main_idtf: [деление*] (* <- lang_ru;; *);
 	=> nrel_main_idtf: [division*] (* <- lang_en;; *);;
+
+nrel_used_concepts
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf: [использованные константы*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [used concepts*] (* <- lang_en;; *);;
+
+nrel_discoverer
+	<- sc_node_norole_relation;
+	=> nrel_main_idtf: [открыватель*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [discoverer*] (* <- lang_en;; *);;
+
+concept_school_theorem
+	<- sc_node_not_relation;
+	=> nrel_main_idtf: [школьная теорема*] (* <- lang_ru;; *);
+	=> nrel_main_idtf: [school theorem*] (* <- lang_en;; *);;
+

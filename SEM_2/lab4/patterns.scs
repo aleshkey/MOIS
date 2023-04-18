@@ -14,7 +14,7 @@ lw4_patterns
 pattern1 => nrel_main_idtf: [Найти все школьные теоремы] (* <- lang_ru;; *);;
 pattern2 => nrel_main_idtf: [Найти все геометрические теоремы] (* <- lang_ru;; *);;
 pattern3 => nrel_main_idtf: [Найти все теоремы Муавра] (* <- lang_ru;; *);;
-pattern4 => nrel_main_idtf: [Найти все использованные константы связанные с теоремой Пифогора] (* <- lang_ru;; *);;
+pattern4 => nrel_main_idtf: [Найти все использованные константы связанные с теоремой Пифагора] (* <- lang_ru;; *);;
 pattern5 => nrel_main_idtf: [Найти все теоремы связанные с треугольником] (* <- lang_ru;; *);;
 pattern6 => nrel_main_idtf: [Найти все теоремы, которые используют косинус] (* <- lang_ru;; *);;
 pattern7 => nrel_main_idtf: [Найти все теоремы] (* <- lang_ru;; *);;

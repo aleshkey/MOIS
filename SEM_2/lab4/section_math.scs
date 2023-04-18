@@ -16,7 +16,7 @@ section_math_theorems
 
 
 pythagorean_theorem
-    =>nrel_main_idtf: [Теорема Пифогора] (* <-lang_ru;; *);
+    =>nrel_main_idtf: [Теорема Пифагора] (* <-lang_ru;; *);
     =>nrel_section_of_math: section_geometry;
     =>nrel_discoverer: scientist_Pythogor;
     
