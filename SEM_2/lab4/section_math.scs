@@ -1,0 +1,203 @@
+section_math_theorems
+    ->pythagorean_theorem;
+    ->triangle_exterior_angle_theorem;
+    ->mean_value_theorem;
+    ->triangle_sum_theorem;
+    ->thee_perpendiculars_theorem;
+    ->sine_theorem;
+    ->probability_addition_theorem;
+    ->probapility_multuplication_theorem;
+    ->thales_theorem;
+    ->fermats_theorem;
+    ->bezouts_theorem;
+    ->vietas_theorem;
+    ->cosine_theorem;;
+
+
+
+pythagorean_theorem
+    =>nrel_main_idtf: [Теорема Пифогора] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_geometry;
+    =>nrel_discoverer: scientist_Pythogor;
+    
+    =>nrel_used_concepts:
+        square;
+        sum;
+        leg;
+        hypotenuse;
+    
+    <-concept_school_theorem;
+    <-concept_theorem;;
+
+
+
+triangle_exterior_angle_theorem
+    =>nrel_main_idtf: [Теорема о внешнем угле треугольника] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_geometry;
+    =>nrel_discoverer: scientist_Euclid;
+    
+    =>nrel_used_concepts:
+        sum;
+        triangle;
+        angle;
+    
+    <-concept_school_theorem;
+    <-concept_theorem;;
+
+
+
+mean_value_theorem
+    =>nrel_main_idtf: [Теорема о среднем] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_mathematical_analysis;
+    =>nrel_discoverer: scientist_Koshi;
+    
+    =>nrel_used_concepts:
+        integral;
+        function;
+        sign_constancy;
+    
+    <-concept_university_theorem;
+    <-concept_theorem;;
+
+
+triangle_sum_theorem
+    =>nrel_main_idtf: [Теорема о сумме углов треугольника] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_geometry;
+    =>nrel_discoverer: scientist_Euclid;
+    
+    =>nrel_used_concepts:
+        sum;
+        triangle;
+        angle;
+    
+    <-concept_school_theorem;
+    <-concept_theorem;;
+
+
+thee_perpendiculars_theorem
+    =>nrel_main_idtf: [Теорема о трех перпендикулярах] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_geometry;
+    =>nrel_discoverer: scientist_unknown;
+    
+    =>nrel_used_concepts:
+        perpendicular;
+        proection;
+        angle;
+
+    <-concept_school_theorem;
+    <-concept_theorem;;
+
+
+sine_theorem
+    =>nrel_main_idtf: [Теорема синусов] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_geometry;
+    =>nrel_discoverer: scientist_Nasir_ad_Din_ad_Tusi;
+    
+    =>nrel_used_concepts:
+        sin;
+        radius;
+        angle;
+
+    <-concept_school_theorem;
+    <-concept_theorem;;
+
+
+probability_addition_theorem
+    =>nrel_main_idtf: [Теорема сложение вероятностей] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_probability_theory;
+    =>nrel_discoverer: scientist_Pascal;
+    
+    =>nrel_used_concepts:
+        event;
+        probapility;
+        experiment;
+        sum;
+
+    <-concept_university_theorem;
+    <-concept_theorem;;
+
+
+probapility_multuplication_theorem
+    =>nrel_main_idtf: [Теорема умножения вероятностей] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_probability_theory;
+    =>nrel_discoverer: scientist_Muavr;
+    
+    =>nrel_used_concepts:
+        event;
+        probapility;
+        experiment;
+        multiplication;
+
+    <-concept_university_theorem;
+    <-concept_theorem;;
+
+
+thales_theorem
+    =>nrel_main_idtf: [Теорема Фалеса] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_geometry;
+    =>nrel_discoverer: scientist_Thales;
+    
+    =>nrel_used_concepts:
+        segment;
+        line;
+        coefficient;
+
+    <-concept_school_theorem;
+    <-concept_theorem;;
+
+    
+fermats_theorem
+    =>nrel_main_idtf: [Теорема Ферма] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_algebra;
+    =>nrel_discoverer: scientist_Fermat;
+    
+    =>nrel_used_concepts:
+        number;
+        degree;
+        equation;
+
+    <-concept_school_theorem;
+    <-concept_theorem;;
+
+
+bezouts_theorem
+    =>nrel_main_idtf: [Теорема Безу] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_algebra;
+    =>nrel_discoverer: scientist_Bezouts;
+    
+    =>nrel_used_concepts:
+        remainder;
+        division;
+        polynomial;
+
+    <-concept_university_theorem;
+    <-concept_theorem;;
+
+
+vietas_theorem
+    =>nrel_main_idtf: [Теорема Виета] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_algebra;
+    =>nrel_discoverer: scientist_Viet;
+    
+    =>nrel_used_concepts:
+        equation;
+        root;
+        disciminant;
+
+    <-concept_school_theorem;
+    <-concept_theorem;;
+
+
+
+cosine_theorem
+    =>nrel_main_idtf: [Теорема косинусов] (* <-lang_ru;; *);
+    =>nrel_section_of_math: section_geometry;
+    =>nrel_discoverer: scientist_Regiomontan;
+    
+    =>nrel_used_concepts:
+        angle;
+        cos;
+        triangle;
+
+    <-concept_school_theorem;
+    <-concept_theorem;;

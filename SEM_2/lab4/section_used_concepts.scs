@@ -1,0 +1,84 @@
+line => nrel_main_idtf:
+    [Линия]
+    (* <- lang_ru;; *);;
+
+segment => nrel_main_idtf:
+    [Отрезок]
+    (* <- lang_ru;; *);;
+
+degree => nrel_main_idtf:
+    [Степень]
+    (*<- lang_ru;; *);;
+
+polynomial => nrel_main_idtf:
+    [многочлен]
+    (* <- lang_ru;; *);;
+
+remainder => nrel_main_idtf:
+    [остаток]
+    (* <-lang_ru;; *);;
+
+disciminant => nrel_main_idtf:
+    [Дискриминант]
+    (*<-lang_ru;;*);;
+
+root => nrel_main_idf:
+    [корень]
+    (* <-lang_ru;;*);;
+
+equation => nrel_main_idtf:
+    [уравнение]
+    (* <-lang_ru;; *);;
+
+
+angle => nrel_main_idtf:
+    [угол]
+    (* <-lang_ru;; *);;
+
+cos => nrel_main_idtf:
+    [косинус]
+    (*<-lang_ru;;*);;
+
+sin => nrel_main_idtf:
+    [синус]
+    (*<-lang_ru;;*);;
+
+triangle => nrel_main_idtf:
+    [треугольник]
+    (*<-lang_ru;;*);;
+
+event => nrel_main_idtf:
+    [событие]
+    (*<-lang_ru;;*);;
+
+probapility => nrel_main_idtf:
+    [возможность]
+    (*<-lang_ru;;*);;
+
+experiment => nrel_main_idtf:
+    [эксперимент]
+    (*<-lang_ru;;*);;
+
+perpendicular => nrel_main_idtf:
+    [перпендикуляр]
+    (*<-lang_ru;;*);;
+
+radius => nrel_main_idtf:
+    [радиус]
+    (*<-lang_ru;;*);;
+
+proection => nrel_main_idtf:
+    [проекция]
+    (*<-lang_ru;;*);;
+
+integral => nrel_main_idtf:
+    [интеграл]
+    (*<-lang_ru;;*);;
+
+leg => nrel_main_idtf:
+    [катет]
+    (*<-lang_ru;;*);;
+
+hypotenuse => nrel_main_idtf:
+    [гипотенуза]
+    (*<-lang_ru;;*);;

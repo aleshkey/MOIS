@@ -1,0 +1,36 @@
+scientist_Bezouts
+    => nrel_main_idtf:[Безу] (*<-lang_ru;;*);;
+
+scientist_Euclid
+    => nrel_main_idtf:[Ефклид] (*<-lang_ru;;*);;
+
+scientist_Fermat
+    => nrel_main_idtf:[Ферма] (*<-lang_ru;;*);;
+
+scientist_Koshi
+    => nrel_main_idtf:[Коши] (*<-lang_ru;;*);;
+
+scientist_Muavr
+    => nrel_main_idtf:[Муавр] (*<-lang_ru;;*);;
+
+scientist_Nasir_ad_Din_ad_Tusi
+    => nrel_main_idtf:[Насир-ад-Дин-ад-Туси] (*<-lang_ru;;*);;
+
+scientist_Pascal
+    => nrel_main_idtf:[Паскаль] (*<-lang_ru;;*);;
+
+scientist_Pythogor
+    => nrel_main_idtf:[Пифогор] (*<-lang_ru;;*);;
+
+scientist_Regiomontan
+    => nrel_main_idtf:[Региомонтан] (*<-lang_ru;;*);;
+
+scientist_Thales
+    => nrel_main_idtf:[Фалес] (*<-lang_ru;;*);;
+
+scientist_unknown
+    => nrel_main_idtf:[неизвестен] (*<-lang_ru;;*);;
+
+scientist_Viet
+    => nrel_main_idtf:[Виет] (*<-lang_ru;;*);;
+
